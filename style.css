@@ -1,0 +1,38 @@
+/* h1{
+    color: red;
+} */
+
+
+/* last Rule */
+/* p{
+    color: red;
+}
+p{
+    color: green;
+}
+p{
+    color: blue;
+} */
+
+
+/* Specificity */
+/* *{
+    color: red !important;
+}
+p{
+    color: green ;
+}
+p#intro{color: blue;
+} */
+
+/* inheritance */
+body {
+    font-family: Arial, Verdana, sans-serif;
+    color: #665544;
+    padding: 10px;
+    border: 1px solid red;
+    } 
+    .page {
+    border: inherit ;
+    background-color:#efefef; 
+    padding: inherit;}
